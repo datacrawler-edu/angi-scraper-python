@@ -1,0 +1,8 @@
+{
+  "name": "angi-scraper-api-examples",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  }
+}

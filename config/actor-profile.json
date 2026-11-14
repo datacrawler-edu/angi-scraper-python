@@ -1,0 +1,145 @@
+{
+  "repository": {
+    "name": "angi-scraper-python",
+    "description": "Python, JavaScript and cURL examples for Angi contractors, public reviews, cost guides and CSV export with Apify.",
+    "homepage": "https://apify.com/datascraperes/angi-scraper?fpr=edudata",
+    "language": "Python",
+    "license": "MIT"
+  },
+  "actor": {
+    "displayName": "Angi Scraper: Contractors, Reviews & Cost Guides",
+    "id": "datascraperes/angi-scraper",
+    "storeUrl": "https://apify.com/datascraperes/angi-scraper",
+    "apiBaseUrl": "https://api.apify.com/v2/acts/datascraperes~angi-scraper",
+    "description": "Collect US contractor profiles, public reviews, service suggestions and cost guides with the hosted Apify Actor."
+  },
+  "affiliate": {
+    "enabled": true,
+    "parameter": "fpr=edudata",
+    "actorUrl": "https://apify.com/datascraperes/angi-scraper?fpr=edudata",
+    "pricingUrl": "https://apify.com/pricing?fpr=edudata"
+  },
+  "platform": {
+    "apifyFreePlan": {
+      "monthlyPrepaidUsage": "$5",
+      "renewsMonthly": true,
+      "noCreditCardRequired": true,
+      "unusedCreditsExpire": true,
+      "sourceUrl": "https://apify.com/pricing?fpr=edudata"
+    }
+  },
+  "interfaces": {
+    "web": {
+      "enabled": true,
+      "inputTab": "Input",
+      "outputTab": "Dataset",
+      "runAction": "Start",
+      "primaryInput": "query",
+      "inputLabel": "Service name",
+      "inputSummary": "Choose a service such as Plumbing, enter a five-digit US ZIP code and a small result limit.",
+      "exportFormats": [
+        "JSON",
+        "CSV"
+      ]
+    },
+    "api": {
+      "enabled": true,
+      "examples": [
+        "cURL",
+        "Python",
+        "JavaScript"
+      ]
+    }
+  },
+  "seo": {
+    "primaryKeyword": "Angi scraper Python",
+    "secondaryKeywords": [
+      "Angi contractor data API",
+      "Angi reviews CSV export",
+      "Angi cost guides API"
+    ],
+    "topics": [
+      "angi",
+      "apify",
+      "python",
+      "web-scraping",
+      "contractor-data",
+      "csv",
+      "api-examples"
+    ],
+    "longTailIntents": [
+      "Find Angi contractors across US ZIP codes with Python",
+      "Download Angi public reviews and cost guides as structured data",
+      "Export an existing Angi Dataset to CSV without starting another run"
+    ]
+  },
+  "content": {
+    "readmeSectionOrder": [
+      "What this repository helps you do",
+      "Example result",
+      "Run without code",
+      "Try it with Apify's free plan",
+      "Quick start for developers",
+      "Input example",
+      "Request examples",
+      "Output fields",
+      "Common use cases",
+      "Long-tail use-case sections",
+      "FAQ",
+      "Limits and pricing",
+      "Hosted version",
+      "Responsible use",
+      "Support"
+    ],
+    "exampleFiles": [
+      "examples/python/angi_contractors.py",
+      "examples/python/batch_zip_codes.py",
+      "examples/python/export_csv.py"
+    ],
+    "faqFile": "docs/faq.md"
+  },
+  "pricing": {
+    "summary": "Pay-per-event: one angi-record per unique delivered and verified Dataset row; attached reviews share the professional row.",
+    "unit": "one verified Dataset row",
+    "price": "FREE: $0.0025 per record ($2.50 per 1,000). Plan discounts apply."
+  },
+  "distribution": {
+    "githubUrl": "https://github.com/datacrawler-edu/angi-scraper-python",
+    "actorToGithubUrl": "https://github.com/datacrawler-edu/angi-scraper-python",
+    "githubToActorUrl": "https://apify.com/datascraperes/angi-scraper?fpr=edudata",
+    "organizationHubUrl": "https://github.com/datacrawler-edu",
+    "firstRelease": {
+      "tag": "v0.1.0",
+      "title": "Angi Python integration and CSV examples"
+    }
+  },
+  "examples": {
+    "inputFile": "data/sample-input.json",
+    "outputFile": "data/sample-output.json",
+    "csvFile": "data/sample-output.csv"
+  },
+  "measurement": {
+    "observationWindowDays": 30,
+    "githubSignals": [
+      "views",
+      "uniqueVisitors",
+      "clones",
+      "referrers",
+      "popularContent"
+    ],
+    "apifySignals": [
+      "users",
+      "runs",
+      "datasetItems",
+      "revenue"
+    ],
+    "searchChecks": [
+      "site:github.com/datacrawler-edu/angi-scraper-python",
+      "Angi scraper Python contractor reviews cost guides"
+    ]
+  },
+  "support": {
+    "issuesUrl": "https://github.com/datacrawler-edu/angi-scraper-python/issues",
+    "actorSupportUrl": "https://apify.com/datascraperes/angi-scraper?fpr=edudata"
+  }
+}
